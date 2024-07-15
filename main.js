@@ -1,5 +1,5 @@
 (async function () {
-  const response = await fetch("./src/data.json");
+  const response = await fetch("./data.json");
   const emps = await response.json();
 
   const emp_list = document.querySelector(".employee-names--list");
