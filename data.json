@@ -1,0 +1,225 @@
+{
+    "employees": [
+      {
+        "employee_id": 101,
+        "first_name": "Alice",
+        "last_name": "Johnson",
+        "email": "alice.johnson@example.com",
+        "phone": "555-1234",
+        "hire_date": "2015-03-15",
+        "department_id": 1,
+        "role_id": 1,
+        "salary": 70000
+      },
+      {
+        "employee_id": 102,
+        "first_name": "Bob",
+        "last_name": "Smith",
+        "email": "bob.smith@example.com",
+        "phone": "555-5678",
+        "hire_date": "2017-06-23",
+        "department_id": 2,
+        "role_id": 2,
+        "salary": 90000
+      },
+      {
+        "employee_id": 103,
+        "first_name": "Charlie",
+        "last_name": "Brown",
+        "email": "charlie.brown@example.com",
+        "phone": "555-8765",
+        "hire_date": "2019-01-11",
+        "department_id": 3,
+        "role_id": 3,
+        "salary": 80000
+      },
+      {
+        "employee_id": 104,
+        "first_name": "David",
+        "last_name": "Williams",
+        "email": "david.williams@example.com",
+        "phone": "555-2345",
+        "hire_date": "2016-04-19",
+        "department_id": 1,
+        "role_id": 1,
+        "salary": 75000
+      },
+      {
+        "employee_id": 105,
+        "first_name": "Eve",
+        "last_name": "Davis",
+        "email": "eve.davis@example.com",
+        "phone": "555-6789",
+        "hire_date": "2018-07-30",
+        "department_id": 2,
+        "role_id": 2,
+        "salary": 88000
+      },
+      {
+        "employee_id": 106,
+        "first_name": "Frank",
+        "last_name": "Miller",
+        "email": "frank.miller@example.com",
+        "phone": "555-8766",
+        "hire_date": "2020-02-15",
+        "department_id": 3,
+        "role_id": 3,
+        "salary": 82000
+      },
+      {
+        "employee_id": 107,
+        "first_name": "Grace",
+        "last_name": "Wilson",
+        "email": "grace.wilson@example.com",
+        "phone": "555-3456",
+        "hire_date": "2014-01-10",
+        "department_id": 1,
+        "role_id": 1,
+        "salary": 71000
+      },
+      {
+        "employee_id": 108,
+        "first_name": "Henry",
+        "last_name": "Moore",
+        "email": "henry.moore@example.com",
+        "phone": "555-7890",
+        "hire_date": "2017-09-12",
+        "department_id": 2,
+        "role_id": 2,
+        "salary": 91000
+      },
+      {
+        "employee_id": 109,
+        "first_name": "Isabella",
+        "last_name": "Taylor",
+        "email": "isabella.taylor@example.com",
+        "phone": "555-9876",
+        "hire_date": "2018-11-21",
+        "department_id": 3,
+        "role_id": 3,
+        "salary": 83000
+      },
+      {
+        "employee_id": 110,
+        "first_name": "Jack",
+        "last_name": "Anderson",
+        "email": "jack.anderson@example.com",
+        "phone": "555-4567",
+        "hire_date": "2019-05-05",
+        "department_id": 1,
+        "role_id": 1,
+        "salary": 72000
+      },
+      {
+        "employee_id": 111,
+        "first_name": "Karen",
+        "last_name": "Thomas",
+        "email": "karen.thomas@example.com",
+        "phone": "555-8910",
+        "hire_date": "2016-03-25",
+        "department_id": 2,
+        "role_id": 2,
+        "salary": 87000
+      },
+      {
+        "employee_id": 112,
+        "first_name": "Leo",
+        "last_name": "Jackson",
+        "email": "leo.jackson@example.com",
+        "phone": "555-7654",
+        "hire_date": "2020-08-13",
+        "department_id": 3,
+        "role_id": 3,
+        "salary": 84000
+      },
+      {
+        "employee_id": 113,
+        "first_name": "Mia",
+        "last_name": "White",
+        "email": "mia.white@example.com",
+        "phone": "555-2346",
+        "hire_date": "2014-07-22",
+        "department_id": 1,
+        "role_id": 1,
+        "salary": 73000
+      },
+      {
+        "employee_id": 114,
+        "first_name": "Nathan",
+        "last_name": "Harris",
+        "email": "nathan.harris@example.com",
+        "phone": "555-6781",
+        "hire_date": "2015-12-09",
+        "department_id": 2,
+        "role_id": 2,
+        "salary": 93000
+      },
+      {
+        "employee_id": 115,
+        "first_name": "Olivia",
+        "last_name": "Martin",
+        "email": "olivia.martin@example.com",
+        "phone": "555-8767",
+        "hire_date": "2017-04-17",
+        "department_id": 3,
+        "role_id": 3,
+        "salary": 85000
+      },
+      {
+        "employee_id": 116,
+        "first_name": "Peter",
+        "last_name": "Garcia",
+        "email": "peter.garcia@example.com",
+        "phone": "555-3457",
+        "hire_date": "2019-11-02",
+        "department_id": 1,
+        "role_id": 1,
+        "salary": 74000
+      },
+      {
+        "employee_id": 117,
+        "first_name": "Quincy",
+        "last_name": "Martinez",
+        "email": "quincy.martinez@example.com",
+        "phone": "555-7891",
+        "hire_date": "2020-03-18",
+        "department_id": 2,
+        "role_id": 2,
+        "salary": 89000
+      },
+      {
+        "employee_id": 118,
+        "first_name": "Rachel",
+        "last_name": "Robinson",
+        "email": "rachel.robinson@example.com",
+        "phone": "555-9877",
+        "hire_date": "2018-06-22",
+        "department_id": 3,
+        "role_id": 3,
+        "salary": 86000
+      },
+      {
+        "employee_id": 119,
+        "first_name": "Samuel",
+        "last_name": "Clark",
+        "email": "samuel.clark@example.com",
+        "phone": "555-4568",
+        "hire_date": "2016-01-28",
+        "department_id": 1,
+        "role_id": 1,
+        "salary": 75000
+      },
+      {
+        "employee_id": 120,
+        "first_name": "Tina",
+        "last_name": "Lewis",
+        "email": "tina.lewis@example.com",
+        "phone": "555-8912",
+        "hire_date": "2015-05-10",
+        "department_id": 2,
+        "role_id": 2,
+        "salary": 92000
+      }
+    ]
+  }
+  

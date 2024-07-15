@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Employee Management System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="src/main.css" />
+    <script src="src/main.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <header class="header">
+        <h1>Employee Database Management</h1>
+        <button class="createEmployee">Add Employee</button>
+      </header>
+    </div>
+    <div class="Employee">
+      <div class="employee-names">
+        <span class="employee-names--title"> Employee List</span>
+        <div class="employee-names--list"></div>
+      </div>
+
+        <div class="employee-info">
+          <span class="employee-info--title"> Employee Information</span>
+          <div class="employee-info--list"></div>
+        </div>
+      </div>
+
+      <!-- //Add employee data -->
+       <div class="add-emp">
+        <h2> Add Employee Details</h2>
+      <form class="employeeForm">
+        <label for="employee_id">Employee ID:</label>
+        <input type="number" id="employee_id" name="employee_id" value="101" required>
+    
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name" value="Alice" required>
+    
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name" value="Johnson" required>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" value="alice.johnson@example.com" required>
+    
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" value="555-1234" required>
+    
+        <label for="hire_date">Hire Date:</label>
+        <input type="date" id="hire_date" name="hire_date" value="2015-03-15" required>
+    
+        <label for="department_id">Department ID:</label>
+        <input type="number" id="department_id" name="department_id" value="1" required>
+    
+        <label for="role_id">Role ID:</label>
+        <input type="number" id="role_id" name="role_id" value="1" required>
+    
+        <label for="salary">Salary:</label>
+        <input type="number" id="salary" name="salary" value="70000" required>
+    
+        <button type="submit" class="submit-btn">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

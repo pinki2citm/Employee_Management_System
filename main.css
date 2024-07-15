@@ -1,0 +1,108 @@
+body{
+    font: 1em sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header > button{
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: greenyellow;
+}
+.Employee{
+    display: flex;
+}
+.Employee > div{
+    border: 1px solid black;
+    padding: 10px;
+    height: 300px;
+    overflow-y: scroll;
+}
+.employee-names{
+    width: 30%;
+}
+.employee-info{
+    width: 70%;
+}
+.employee-info,
+.employee-names{
+    display: flex;
+    flex-direction: column;
+}
+.employee-names--title,
+.employee-info--title{
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.employee-names--item{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 10px 15px;
+    background-color: gray;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.employee-names--item:hover,
+.selected{
+background-color: yellowgreen;
+}
+img{
+    width: 100px;
+
+   
+}
+.emp-details-single{
+    
+    display: flex;
+    font-size: 25px;
+    text-align: center;
+ padding: 5px;
+    text-transform: uppercase;
+}
+.emp-details-single > span{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap:10px;
+}
+.add-emp{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+
+    align-items: center;
+    justify-content: center;
+}
+.employeeForm{
+    width: 400px;
+    background-color: yellowgreen;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+gap: 10px;
+box-shadow: 0 0 50px gray;
+}
+input{
+    width:50%
+}
+.submit-btn{
+    padding: 10px;
+    border-radius: 20px;
+    width: 50%;
+}
+.submit-btn:hover{
+background-color: palevioletred;
+
+
+}
